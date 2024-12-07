@@ -2,7 +2,6 @@ xgboost
 keras
 tensorflow
 scikit-learn
-kafka-python
 pyshark
 fbprophet
 prometheus_client
@@ -14,3 +13,5 @@ requests
 pandas
 matplotlib
 seaborn
+kafka-python
+transformers
