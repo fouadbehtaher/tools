@@ -1,0 +1,19 @@
+from network_security_tool import NetworkSecurityTool
+
+# إنشاء الأداة
+tool = NetworkSecurityTool()
+
+# بيانات عشوائية لاختبار التحليلات
+data = np.random.rand(100, 10)
+
+# تشغيل الكشف عن الشذوذ
+tool.run_anomaly_detection(data)
+
+# تنبؤ بالأداء
+network_data = np.random.rand(50, 5)
+performance_prediction = tool.predict_network_performance(network_data)
+print(performance_prediction)
+
+# إدارة المفاتيح والتكامل مع الأنظمة الخارجية
+tool.manage_keys()
+tool.integrate_external_systems()
