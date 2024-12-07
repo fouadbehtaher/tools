@@ -1,0 +1,16 @@
+xgboost
+keras
+tensorflow
+scikit-learn
+kafka-python
+pyshark
+fbprophet
+prometheus_client
+boto3
+apache-spark
+dask
+elasticsearch
+requests
+pandas
+matplotlib
+seaborn
