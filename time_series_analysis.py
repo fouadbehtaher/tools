@@ -2,7 +2,7 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
 from statsmodels.tsa.arima.model import ARIMA
-from fbprophet import Prophet
+from prophet import Prophet
 import pandas as pd
 
 def build_lstm_model(input_shape):
