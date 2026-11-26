@@ -2,7 +2,7 @@ import xgboost as xgb
 import numpy as np
 from keras.models import Sequential, LSTM
 from sklearn.model_selection import train_test_split
-from fbprophet import Prophet
+from prophet import Prophet
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.cluster import DBSCAN
 from sklearn.ensemble import IsolationForest
