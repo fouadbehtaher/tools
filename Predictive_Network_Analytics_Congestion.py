@@ -1,4 +1,4 @@
-from fbprophet import Prophet
+from prophet import Prophet
 
 def predict_network_performance(data):
     df = pd.DataFrame(data, columns=['ds', 'y'])
