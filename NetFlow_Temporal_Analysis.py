@@ -1,5 +1,5 @@
 from statsmodels.tsa.arima.model import ARIMA
-from fbprophet import Prophet
+from prophet import Prophet
 import pandas as pd
 
 def analyze_network_time_series(data):
