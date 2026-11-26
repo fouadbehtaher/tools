@@ -1,4 +1,4 @@
-from fbprophet import Prophet
+from prophet import Prophet
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
 import xgboost as xgb
