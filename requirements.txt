@@ -3,10 +3,10 @@ keras
 tensorflow
 scikit-learn
 pyshark
-fbprophet
+prophet
 prometheus_client
 boto3
-apache-spark
+pyspark
 dask
 elasticsearch
 requests
